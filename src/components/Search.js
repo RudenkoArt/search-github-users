@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { MdSearch } from 'react-icons/md';
 import { GithubContext } from '../context/context';
-import { useState } from 'react';
 
 const Search = () => {
   const [user, setUser] = React.useState('');
